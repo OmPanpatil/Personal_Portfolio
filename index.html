@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html><html lang="en">
+  <head>
     <!-- Metadata of the Webpage -->
     <!-- Character-set Metadata -->
     <meta charset="utf-8">
@@ -11,6 +12,7 @@
     <meta name="author" content="Om Panpatil">
     <!-- Keyword Metadata -->
     <meta name="keywords">
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- Webpage Logo -->
     <link rel="shortcut icon" href="https://www.cloudskillsboost.google/public_profiles/58abc22d-3509-42fb-b315-f3fbe647abc8/badges/4508147?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share">
     <!-- Webpage Title -->
@@ -29,7 +31,7 @@
           <span class="site-title">Om Panpatil</span>
           <span class="site-description">• AI developer • Web Developer • Android Developer • UI/UX </span>
         </h1>
-        <div class="header-icons">
+        <!-- <div class="header-icons">
           <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/om-panpatil-b59483273/">
             <i class="icon fa fa-linkedin" aria-hidden="true"></i>
           </a>
@@ -40,7 +42,35 @@
             <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
           </a>
           <a aria-label="Send Email" href="mailto:ompanpatil513@gmail.com" target="_blank"><i class="icon fa fa-envelope"></i></a>
-        </div>
+        </div> -->
+  <div class="tw-social flex justify-center gap-6 mt-6">
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/om-panpatil-b59483273/" target="_blank"
+     class="w-12 h-12 flex items-center justify-center rounded-full border border-white/30 hover:bg-white hover:text-black transition duration-300">
+    <i class="ri-linkedin-fill text-xl"></i>
+  </a>
+
+  <!-- GitHub -->
+  <a href="https://github.com/OmPanpatil" target="_blank"
+     class="w-12 h-12 flex items-center justify-center rounded-full border border-white/30 hover:bg-white hover:text-black transition duration-300">
+    <i class="ri-github-fill text-xl"></i>
+  </a>
+
+  <!-- Resume -->
+  <a href="./resume/Om Panpatil Resume.pdf" target="_blank"
+     class="w-12 h-12 flex items-center justify-center rounded-full border border-white/30 hover:bg-white hover:text-black transition duration-300">
+    <i class="ri-file-pdf-line text-xl"></i>
+  </a>
+
+  <!-- Email -->
+  <a href="mailto:ompanpatil513@gmail.com"
+     class="w-12 h-12 flex items-center justify-center rounded-full border border-white/30 hover:bg-white hover:text-black transition duration-300">
+    <i class="ri-mail-line text-xl"></i>
+  </a>
+
+</div>
+  
         <div class="header-links">
           <a class="link" href="#about" data-scroll="">About Me</a>
           <a class="link" href="#projects" data-scroll="">Projects</a>
@@ -52,85 +82,100 @@
     <!-- About Section -->
     <section id="about">
       <!-- User Introduction-->
-      <div class="user-details">
-        <h1>My Story</h1>
-        <picture>
-          <source type="image/jpg" secset="om.jpg" alt="Professional Me" width="20%" style="border-radius: 50%">
-          <img src="./images/om.jpg" alt="Professional Me" width="20%" style="border-radius: 50%">
-        </picture>
-        <p>
-          I am an android as well as web developer , enthusiastic about learning and innovating new solutions to the worldly as well as local problems.
-          My interests include Flutter development and Artificial intelligence .I consider AI/ML to be the future 
-          hence is currently innovating new solutions using this fields . My projects contain the glimpse of some AI as well.
-          I am also a graphic design enthusiast and have a good hand in UI/UX design.
-        </p>
-      </div>
+<div class="user-details tw-user-details flex flex-col items-center text-center px-6 py-16">
 
-      <!-- User Specifics -->
-      <div class="user">
-        <!-- Technology Stack #1: Languages -->
-        <div class="tech">
-          <h2>Languages</h2>
-          <i class="devicon-java-plain-wordmark colored"></i>
-          <i class="devicon-python-plain colored"></i>
-          <i class="devicon-cplusplus-plain colored"></i>
-          <i class="devicon-javascript-plain colored"></i>
-          <!-- <br><br> -->
-          <p>My favorite languages for systems programming, software engineering, and data analysis.</p>
-        </div>
+  <h1 class="text-3xl md:text-5xl font-bold mb-10">My Story</h1>
 
-        <!-- Technology Stack #2: Front-End -->
-        <div class="tech">
-          <h2>Front-End</h2>
-          <i class="devicon-react-original colored"></i>
-          <i class="devicon-nodejs-plain-wordmark colored"></i>
-          <i class="devicon-html5-plain-wordmark colored"></i>
-          <i class="devicon-css3-plain-wordmark colored"></i>
-          
-          <!-- <i class="devicon-figma-plain-watermark colored"></i> -->
-          <!-- <i class="devicon-photoshop-plain"></i> -->
-          <!-- <i class="devicon-illustrator-plain colored"></i> -->
-          <!-- <i class="devicon-figma-plain-watermark"></i> -->
-          <!-- <i class="devicon-adobe-xd-plain colored"></i> -->
-          <!-- <i class="devicon-bootstrap-plain-wordmark colored"></i> -->
-          <p>My preferred technologies for front-end web development and component design.</p>
-        </div>
+  <!-- Image -->
+  <div class="mb-8">
+    <img 
+      src="./images/om.jpg" 
+      alt="Om Panpatil"
+      class="w-40 h-40 md:w-52 md:h-52 object-cover rounded-full border-4 border-white/20 shadow-lg hover:scale-105 transition duration-300"
+    >
+  </div>
 
-        <!-- Technology Stack #3: Back-End -->
-        <div class="tech">
-          <h2>Back-End</h2>
-          <i class="devicon-nodejs-plain colored"></i>
-          <i class="devicon-tenserflow-original-wordmark colored"></i>
-          <i class="devicon-mongodb-plain-wordmark colored"></i>
-          <i class="devicon-postgresql-plain-wordmark colored"></i>
-          <!-- <i class="devicon-adobe-xd-plain "></i> -->
-          
-          <!-- <br><br> -->
-          <p>My preferred technologies for back-end web programming and database architecture.</p>
-        </div>
+  <!-- Text -->
+  <p class="text-gray-300 text-sm md:text-lg max-w-3xl leading-relaxed">
+    I am an android as well as web developer, enthusiastic about learning and innovating new solutions to worldly as well as local problems.
+    My interests include Flutter development and Artificial Intelligence. I consider AI/ML to be the future and am currently innovating solutions in this field.
+    My projects reflect my work in AI. I am also a graphic design enthusiast with strong UI/UX skills.
+  </p>
 
-        <!-- Technology Stack #4: Tools -->
-        <div class="tech">
-          <h2>Tools</h2>
-          <i class="devicon-git-plain-wordmark colored"></i>
-          <!-- <i class="devicon-visualstudio-plain colored"></i> -->
-          <i class="devicon-github-plain-wordmark colored"></i>
-          <!-- <i class="devicon-docker-plain-wordmark colored"></i> -->
-          <!-- <br><br> -->
-          <p>My favorite tools for version control, code editing, and container orchestration.</p>
-        </div>
+</div>
 
-              <!-- Technology Stack #5: UI/UX -->
-      <div class="tech2">
-        <h2>UI/UX</h2>
-          <!-- <i class="devicon-figma-plain colored"></i> -->
-          <i class="ri-figma-line"></i>
-          <i class="devicon-photoshop-plain colored"></i>
-          <i class="devicon-illustrator-plain colored"></i>
-          <i class="devicon-adobe-xd-plain colored"></i>
-          <!-- <br><br> -->
-          <p>My preferred tools for designing user interfaces and user experiences.</p>
-      </div>
+ <div class="tw-user-grid grid gap-10 px-6 py-12 text-center
+            grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+
+  <!-- Languages -->
+  <div class="tw-card flex flex-col items-center bg-white/5 backdrop-blur-md rounded-2xl p-6 hover:scale-105 transition duration-300">
+    <h2 class="text-2xl font-semibold mb-3">Languages</h2>
+    <div class="flex flex-wrap justify-center gap-4 text-4xl">
+      <i class="devicon-java-plain-wordmark colored"></i>
+      <i class="devicon-python-plain colored"></i>
+      <i class="devicon-cplusplus-plain colored"></i>
+      <i class="devicon-javascript-plain colored"></i>
+    </div>
+    <p class="text-gray-400 text-sm mt-4 max-w-xs">
+      My favorite languages for systems programming, software engineering, and data analysis.
+    </p>
+  </div>
+
+  <!-- Front-End -->
+  <div class="tw-card flex flex-col items-center bg-white/5 backdrop-blur-md rounded-2xl p-6 hover:scale-105 transition duration-300">
+    <h2 class="text-2xl font-semibold mb-3">Front-End</h2>
+    <div class="flex flex-wrap justify-center gap-4 text-4xl">
+      <i class="devicon-react-original colored"></i>
+      <i class="devicon-nodejs-plain-wordmark colored"></i>
+      <i class="devicon-html5-plain-wordmark colored"></i>
+      <i class="devicon-css3-plain-wordmark colored"></i>
+    </div>
+    <p class="text-gray-400 text-sm mt-4 max-w-xs">
+      My preferred technologies for front-end web development and component design.
+    </p>
+  </div>
+
+  <!-- Back-End -->
+  <div class="tw-card flex flex-col items-center bg-white/5 backdrop-blur-md rounded-2xl p-6 hover:scale-105 transition duration-300">
+    <h2 class="text-2xl font-semibold mb-3">Back-End</h2>
+    <div class="flex flex-wrap justify-center gap-4 text-4xl">
+      <i class="devicon-nodejs-plain colored"></i>
+      <i class="devicon-tenserflow-original-wordmark colored"></i>
+      <i class="devicon-mongodb-plain-wordmark colored"></i>
+      <i class="devicon-postgresql-plain-wordmark colored"></i>
+    </div>
+    <p class="text-gray-400 text-sm mt-4 max-w-xs">
+      My preferred technologies for back-end web programming and database architecture.
+    </p>
+  </div>
+
+  <!-- Tools -->
+  <div class="tw-card flex flex-col items-center bg-white/5 backdrop-blur-md rounded-2xl p-6 hover:scale-105 transition duration-300">
+    <h2 class="text-2xl font-semibold mb-3">Tools</h2>
+    <div class="flex flex-wrap justify-center gap-4 text-4xl">
+      <i class="devicon-git-plain-wordmark colored"></i>
+      <i class="devicon-github-plain-wordmark colored"></i>
+    </div>
+    <p class="text-gray-400 text-sm mt-4 max-w-xs">
+      My favorite tools for version control, code editing, and container orchestration.
+    </p>
+  </div>
+
+  <!-- UI/UX -->
+  <div class="tw-card flex flex-col items-center bg-white/5 backdrop-blur-md rounded-2xl p-6 hover:scale-105 transition duration-300">
+    <h2 class="text-2xl font-semibold mb-3">UI/UX</h2>
+    <div class="flex flex-wrap justify-center gap-4 text-4xl">
+      <i class="ri-figma-line"></i>
+      <i class="devicon-photoshop-plain colored"></i>
+      <i class="devicon-illustrator-plain colored"></i>
+      <i class="devicon-adobe-xd-plain colored"></i>
+    </div>
+    <p class="text-gray-400 text-sm mt-4 max-w-xs">
+      My preferred tools for designing user interfaces and user experiences.
+    </p>
+  </div>
+
+</div>
 
     </section>
 
@@ -154,37 +199,87 @@
 
 
     <!-- Projects Section -->
-    <section id="projects">
-      <h1>Projects</h1>
-      <div class="projects">
-        <!-- Project #1: Jobbuzz -->
-        <div class="project">
-          <h2>JOBBUZZ Application</h2>
-          <p>Project was about jobs search results it was for an agency using technology Android tech Stacks</p>
-          <a href="https://www.figma.com/proto/PKhpx5DYeXdA7KtNcqNPeN/JobBuzz-Mobile-Application?page-id=0%3A1&node-id=2-3&starting-point-node-id=2%3A3&content-scaling=responsive&t=FUDypm1nTmDkKem1-1" target="_blank"><img src="./images/Jobbuzz.png" alt="JOBBUZZ"> View Project</a>
-        </div>
+<section id="projects" class="tw-projects-section py-16 px-6 md:px-12 bg-black text-white">
+  <h1 class="text-3xl md:text-5xl font-bold text-center mb-12">Projects</h1>
+
+  <div class="tw-projects-grid grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+    <!-- Project 1 -->
+    <div class="tw-project-card bg-white/5 backdrop-blur-lg rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
+      <img src="./images/Jobbuzz.png" alt="JOBBUZZ" class="w-full h-48 object-cover">
+
+      <div class="p-5">
+        <h2 class="text-xl font-semibold mb-2">JOBBUZZ Application</h2>
+        <p class="text-sm text-gray-300 mb-4">
+          Job search application built using Android technologies.
+        </p>
+
+        <a href="https://www.figma.com/proto/PKhpx5DYeXdA7KtNcqNPeN/JobBuzz-Mobile-Application?page-id=0%3A1&node-id=2-3&starting-point-node-id=2%3A3"
+          target="_blank"
+          class="inline-block px-4 py-2 bg-white text-black rounded-lg text-sm font-medium hover:bg-gray-200 transition">
+          View Project →
+        </a>
       </div>
+    </div>
 
-      <!-- <div class="projects"> -->
-        <!-- Project #2: Eyedit Media -->
-        <div class="project2">
-          <h2>Eyedit Media</h2>
-          <p>Project was about Designing a webpage for a client</p>
-          <a href="https://www.figma.com/proto/a1JPNkRNRhfeGiRUgtyrBh/FirstDesign?page-id=0%3A1&node-id=2-2&p=f&viewport=509%2C114%2C0.18&t=ceOYQjFdpCDr3onE-1&scaling=contain&content-scaling=responsive" target="_blank"><img src="./images/Eyedit-Media.png" alt="Eyedit Media"> <br> View Project</a>
-        </div>
-      <!-- </div> -->
+    <!-- Project 2 -->
+    <div class="tw-project-card bg-white/5 backdrop-blur-lg rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
+      <img src="./images/Eyedit-Media.png" alt="Eyedit Media" class="w-full h-48 object-cover">
 
-      <!-- project #3:  Webcraftedminds -->
-      <div class="project3">
-        <h2>Webcraftedminds</h2>
-        <p>Project was about Designing a webpage for freelancing.</p>
-        <a href="https://www.webcraftedminds.com/" target="_blank"><img src="./images/Webcraftedminds.png" alt="Webcraftedminds"> <br> View Project</a>
+      <div class="p-5">
+        <h2 class="text-xl font-semibold mb-2">Eyedit Media</h2>
+        <p class="text-sm text-gray-300 mb-4">
+          UI/UX design project for a client website.
+        </p>
+
+        <a href="https://www.figma.com/proto/a1JPNkRNRhfeGiRUgtyrBh/FirstDesign?page-id=0%3A1&node-id=2-2"
+          target="_blank"
+          class="inline-block px-4 py-2 bg-white text-black rounded-lg text-sm font-medium hover:bg-gray-200 transition">
+          View Project →
+        </a>
       </div>
+    </div>
 
-    </section>
+    <!-- Project 4 -->
+    <div class="tw-project-card bg-white/5 backdrop-blur-lg rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
+      <img src="./images/Webcraftedminds.png" alt="Webcraftedminds" class="w-full h-48 object-cover">
+
+      <div class="p-5">
+        <h2 class="text-xl font-semibold mb-2">Webcraftedminds</h2>
+        <p class="text-sm text-gray-300 mb-4">
+          Freelancing website design and development.
+        </p>
+
+        <a href="https://www.webcraftedminds.com/"
+          target="_blank"
+          class="inline-block px-4 py-2 bg-white text-black rounded-lg text-sm font-medium hover:bg-gray-200 transition">
+          View Project →
+        </a>
+      </div>
+    </div>
+
+       <div class="tw-project-card bg-white/5 backdrop-blur-lg rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
+      <img src="./images/DOGANIME.png" alt="DOGANIME" class="w-full h-48 object-cover">
+
+      <div class="p-5">
+        <h2 class="text-xl font-semibold mb-2">DOG STUIOS</h2>
+        <p class="text-sm text-gray-300 mb-4">
+          THREEJS PROJECT LEARNING
+        </p>
+
+        <a href="https://dogstudio-devprodigy.vercel.app/"
+          target="_blank"
+          class="inline-block px-4 py-2 bg-white text-black rounded-lg text-sm font-medium hover:bg-gray-200 transition">
+          View Project →
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
 
     <footer class="footer">
-      <p>© Om Panpatil, 2024</p>
+      <p>© Om Panpatil</p>
     </footer>
 
     <!-- Import JS: Particles Theme -->

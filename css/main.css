@@ -1,6 +1,9 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 @import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
 @import url(https://fonts.googleapis.com/css?family=Rubik);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html {
     line-height: 1.15;
@@ -4800,6 +4803,12 @@ template {
 }
 
 #projects .project3 img {
+    width: 29vw;
+    height: 45vh;
+    border-radius: 5px
+}
+
+#projects .project4 img {
     width: 29vw;
     height: 45vh;
     border-radius: 5px
